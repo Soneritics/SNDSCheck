@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNDSCheck", "SNDSCheck.csproj", "{FE429029-8085-4976-8D99-3B8B626A1BE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNDSCheck.Tests", "..\SNDSCheck.Tests\SNDSCheck.Tests.csproj", "{8D49F19C-A243-431F-B44D-330693D62401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerMonitorShared", "..\ServerMonitorShared\ServerMonitorShared\ServerMonitorShared.csproj", "{442AF846-C713-47A2-B528-B916B9FAF6C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE429029-8085-4976-8D99-3B8B626A1BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE429029-8085-4976-8D99-3B8B626A1BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE429029-8085-4976-8D99-3B8B626A1BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE429029-8085-4976-8D99-3B8B626A1BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D49F19C-A243-431F-B44D-330693D62401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D49F19C-A243-431F-B44D-330693D62401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D49F19C-A243-431F-B44D-330693D62401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D49F19C-A243-431F-B44D-330693D62401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442AF846-C713-47A2-B528-B916B9FAF6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442AF846-C713-47A2-B528-B916B9FAF6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442AF846-C713-47A2-B528-B916B9FAF6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442AF846-C713-47A2-B528-B916B9FAF6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
